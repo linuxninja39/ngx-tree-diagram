@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@s56/ngx-tree-diagram": [
+        "dist/s56/ngx-tree-diagram"
+      ],
+      "@s56/ngx-tree-diagram/*": [
+        "dist/s56/ngx-tree-diagram/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
